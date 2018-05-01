@@ -75,7 +75,7 @@ vue-music
 ---
 
 ```
-git clone https://github.com/poetries/vue-music.git
+git clone https://github.com/Fdango/vue-music.git
 
 # 进入根目录
 cd vue-music
