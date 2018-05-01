@@ -90,24 +90,6 @@ npm run dev
 npm run build
 ```
 
-screenshot
----
-
-- 推荐、歌手、排行页面
-
-![](shotscreen/recommend.png)
-![](shotscreen/singer.png)
-![](shotscreen/rank.png)
-
-
-- 搜索、播放页面
-
-
-![](shotscreen/search.png)
-![](shotscreen/player.png)
-![](shotscreen/song.png)
-
-
 
 License
 ---
