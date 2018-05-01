@@ -3,12 +3,6 @@ vue-music
 > 使用vue2.0构建音乐播放器
 
 
-项目组成
----
-
-![](shotscreen/music-vue.png)
-
-
 组件划分
 ---
 
@@ -50,24 +44,31 @@ vue-music
 
 技术栈
 ---
+[前端]
+- Vue：vue.js(2.0)
+- Vuex：Vue集中状态管理，在多个组件共享数据
+- Vue Router：为单页面应用提供的路由系统
+- vue-lazyload：第三方图片懒加载库，优化页面加载速度
+- better-scroll：移动端滑动体验更加流畅
+- ES6：ECMAScript 新一代语法，模块化、解构赋值、Promise、Class 等方法
+- stylus：css 预编译处理器
 
-- MVVM框架：vue.js(2.0)
-- 状态管理：Vuex
-- 脚手架：ve-cli
-- 前端路由：Vue Router
-- 服务端通信：axios、jsonp
-- 懒加载：vue-lazyload
-- 移动端滚动库：better-scroll
-- 构建工具：webpack2.0
-- 源码：es6
-- 样式：stylus
-- 规范：eslint
+[后端]
+- Node.js：在本地测试启动服务器(利用了Express,具体底层就不是太了解了...)
+- axios ：官方推荐服务端通讯工具, 结合了node.js代理后端请求(再也不用跟后台大佬们说跨域的问题了...)
+
+[自动化构建及其他工具]
+- webpack: 项目的编译打包(目前还只是会模板中的webpack)
+- vue-cli: Vue 官方脚手架工具
+- eslint: 代码风格检查工具(在实际项目当中即使你开了eslint,也有个别队友神助攻自行关闭eslint,然后你就满世界的去找问题去吧...)
 
 
 
 
-项目结构
+收获
 ---
+其实收获还是很大的,跟着黄老师的课程来撸代码,不光学习到了vue的api,vuex数据更新,也学习到了平时开发工作的一些小技巧。在这里上传代码只是想练习一下git工具,如有不便请及时联系我
+
 
 
 
